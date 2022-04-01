@@ -1,2 +1,2 @@
-# w4b-final-project
-final project
+# final-project
+Final Project
