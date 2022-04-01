@@ -1,0 +1,194 @@
+/* BODY */
+body {
+    background: rgb(224, 214, 219);
+    background: radial-gradient(circle, rgba(224, 214, 219, 1) 67%, rgba(193, 233, 148, 1) 85%);
+    margin: auto;
+    padding: auto;
+}
+
+/* HEADERS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(158, 180, 218);
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black;
+    /* border-radius: 5px; */
+}
+
+/* PARAGRAPHS */
+p {
+    font-family: 'Roboto Slab', serif;
+    line-height: -1.5;
+    letter-spacing: 2px;
+}
+
+/* CONTAINER */
+.container {
+    width: 1000px;
+    background-color: rgb(189, 58, 152, 0.5);
+    margin: auto;
+    padding: 15px;
+    height: 1400px;
+}
+
+/* NAV BAR */
+nav {
+    background-color: rgb(198, 197, 197, 0.5);
+    margin-bottom: 10px;
+    padding: 15px;
+    /* border-radius: 10px; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    background-color: rgb(224, 214, 219);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+ul li:hover {
+    background: rgb(224, 214, 219);
+    background: radial-gradient(circle, rgba(224, 214, 219, 1) 67%, rgba(193, 233, 148, 1) 85%);
+}
+
+ul li a:hover {
+    color: rgb(0, 160, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HERO IMAGE */
+.hero {
+    border: 1px solid rgb(12, 12, 12);
+    background-color: transparent;
+    height: 400px;
+    background-position: bottom right;
+    margin-bottom: 10px;
+}
+
+.text-back-hero {
+    background-color: rgb(0, 160, 0, 0.5);
+    padding: 12px 50px;
+    text-align: center;
+    display: inline-block;
+    color: rgb(12, 12, 12);
+    position: relative;
+    top: -370px;
+    left: 50px;
+    margin-left: 80px;
+}
+
+/* COLUMNS */
+.column {
+    float: left;
+    width: 478px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid rgb(12, 12, 12);
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.column img {
+    width: 45%;
+    float: left;
+    padding-left: 10px;
+}
+
+.col-one {
+    background-color: rgb(224, 214, 219);
+}
+
+.col-two {
+    background-color: rgba(193, 233, 148, 0.725);
+}
+
+.col-three {
+    background-color: rgb(224, 214, 219);
+}
+
+.col-four {
+    background-color: rgba(193, 233, 148, 0.725);
+}
+
+.col-five {
+    background-color: rgb(224, 214, 219);
+}
+
+.col-six {
+    background-color: rgba(193, 233, 148, 0.725);
+}
+
+.text-back {
+    color: rgb(12, 12, 12);
+    padding: 2px 10px;
+}
+
+/* FOOTER */
+footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(198, 197, 197);
+    border-radius: 10px;
+    color: rgb(12, 12, 12);
+    height: 350px;
+}
+
+/* ICONS */
+.fa-tree {
+    color: rgb(0, 160, 0);
+}
+
+.fa-facebook {
+    color: rgb(189, 58, 152, 0.725);
+}
+
+.fa-instagram {
+    color: rgb(189, 58, 152, 0.725);
+}
+
+.fa-snapchat {
+    color: rgb(189, 58, 152);
+}
+
+.fa-twitter {
+    color: rgb(189, 58, 152, 0.725);
+}
+
+.privandterm {
+    color: rgb(189, 58, 152, 0.725);
+}
+
+.myname {
+    font-size: larger;
+}
+
+/* FORM */
+input[type=text] input[type=email],
+textarea {
+    width: 80%;
+    padding: -25px;
+    box-sizing: border-box;
+    border: 1px solid rgb(12, 12, 12);
+}

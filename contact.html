@@ -1,74 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact</title>
-	<!-- THIS IS THE LINK FOR MY STYLES -->
+	<title>Contact Page</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="css/styles.css">
-
-	<!-- THIS IS THE LINK FOR A WEBSITE WITH MORE STYLES FOR SOCIAL MEDIA ICONS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<script src="https://kit.fontawesome.com/3b0b1344c8.js" crossorigin="anonymous"></script>
 
 </head>
 
-<!-- THIS IS WHAT WILL BE DISPLAYING ON BROWSER -->
+
 <body>
+	<a name="top"></a>
 	<div class="container">
-		<h2>Contact</h2>
-		<!-- THIS IS THE HEADER -->
 		<header>
-			<a href="index.html"><img src="img/logo2.jpeg" alt="logo" height="100"></a>
-			<!-- THIS IS THE NAVIGATION BAR TO GET BACK AND FORTH THRU PAGES -->
-			<nav>
-				<!-- THESE ARE THE HYPERLINKS TO AND FROM THE PAGES -->
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="contact.html">Contact</a>
-			</nav>
+			<h1>Contact Page</h1>
 		</header>
+		<nav>
+			<a href="https://www.nature.org/en-us/"><img src="img/logo1.jpeg" alt="HTML tutorial"
+					style="width:80px;height:60px;"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="hero">
+			<div>
+				<img src="img/nature4.jpeg" alt="nature4" width="1000px" height="400px">
+			</div>
+			<div class="text-back-hero">
+				<h2 class="hero-head">Welcome</h2>
+				<form class="form">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" placeholder="First Name" required><br>
 
-		<!-- THIS IS A BREAK -->
-		<br>
+					<label for="lname">Last Name</label>
+					<input type="text" id="fname" placeholder="Last Name" required><br>
 
-		<!-- THIS IS A FORM -->
-		<form class="form">
-			<label for="fname">First Name</label><br>
-			<input type="text" id="fname" placeholder="First Name" required><br>
-	
-			<label for="lname">Last Name</label><br>
-			<input type="text" id="fname" placeholder="Last Name" required><br>
-	
-			<label for="email">Email</label><br>
-			<input type="email" id="email" placeholder="Email" required><br>
-	
-			<label for="comment">Comment</label><br>
-			<textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment.."></textarea><br>
-	
-			<!-- THIS IS THE SUBMIT BUTTON -->
-			<input type="submit" value="Submit">
-		</form>
-	<!-- THIS IS THE END OF THE 'CONTAINER' DIV -->
+					<label for="email">Email</label>
+					<input type="email" id="email" placeholder="Email" required><br>
+
+					<label for="comment">Comment</label>
+					<textarea name="comment" id="comment" placeholder="Write something.."
+						style="height: 100px;"></textarea>
+
+					<input type="submit" value="Submit">
+					<p>Questions or Concerns Telephone #123-456-7890</p>
+				</form>
+			</div>
+		</div>
+		<main class="row">
+			<div class="column col-five">
+				<div class="text-back">
+					<h2>Nature1</h2>
+					<img src="img/nature2.jpeg" alt="nature2">
+					<p>Tenetur suscipit itaque quo quis similique qui eum, dolorum ea expedita tempora laboriosam
+						asperiores facilis ipsam cupiditate quibusdam enim accusamus magni quas. Lorem ipsum dolor sit
+						amet consectetur adipisicing elit. Dolorem dolor veniam, magni illum fugiat odit culpa.</p>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur suscipit itaque quo quis
+						similique qui eum, dolorum ea expedita.</p>
+				</div>
+			</div>
+			<div class="column col-six">
+				<div class="text-back">
+					<h2>Nature2</h2>
+					<img src="img/nature3.jpeg" alt="nature3">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur suscipit itaque quo
+						quis
+						similique qui eum, dolorum ea expedita tempora laboriosam asperiores facilis ipsam
+						cupiditate
+						quibusdam enim accusamus magni quas.</p>
+
+					<p>Tenetur suscipit itaque quo quis
+						similique qui eum, dolorum ea expedita tempora laboriosam. Lorem ipsum dolor sit amet
+						consectetur adipisicing elit. Pariatur quo quasi consequatur.</p>
+				</div>
+
+		</main>
+		<footer>
+			<div class="logo">
+				<a href="https://www.nature.org/en-us/"><img src="img/logo1.jpeg" alt="HTML tutorial"
+						style="width:80px;height:60px;"></a>
+			</div>
+			<p>&copy; 2022 |
+				<a href="https://photos.google.com/?pli=1"><i class="fa-solid fa-tree fa-beat fa-rotate-90"></i></a>
+				<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+				<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat"></i></a>
+				<a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+				<p>
+					<div class="privandterm"><b>Author:</b></div>
+					<div class="myname">Yer Lee</div>
+				</p>
+				<p><a href="mailto:info@example.com">info@eample.com</a></p>
+				<p>
+					<div class="privandterm"><b>Privacy Policy:</b></div> Lorem ipsum dolor sit amet consectetur
+					adipisicing elit. Omnis accusantium
+					aperiam voluptates? Laboriosam dolorem optio rem cumque officiis molestias repellendus recusandae
+					sint eum nemo quo, asperiores consectetur. Distinctio, consectetur labore!
+				</p>
+				<p>
+					<div class="privandterm"><b>Terms of Use:</b></div> Officia esse obcaecati consectetur, minus
+					inventore voluptatem, mollitia totam
+					suscipit impedit fugiat veritatis blanditiis labore fuga omnis nostrum nam laboriosam odio
+					ratione.Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#top">Back to Top</a>
+				</p>
+		</footer>
+
 	</div>
-
-	<!-- THIS IS THE FOOTER -->
-	<footer>
-		<div class="symbol">
-			<p>&copy; 2022 | </p>
-		</div>
-		<div class="footer">
-			<!-- THESE ARE THE SOCIAL MEDIA HYPERLINKS -->
-			<a href="https://www.facebook.com" class="fa fa-facebook"></a>
-			<a href="https://www.youtube.com" class="fa fa-youtube"></a>
-			<a href="https://www.instagram.com" class="fa fa-instagram"></a>
-			<a href="https://www.google.com" class="fa fa-google"></a>
-		</div>
-		<!-- THIS IS THE END OF FOOTER -->
-	</footer>
-<!-- THIS IS THE END OF DISPLAYING ON BROWSER -->
 </body>
-
 
 </html>
